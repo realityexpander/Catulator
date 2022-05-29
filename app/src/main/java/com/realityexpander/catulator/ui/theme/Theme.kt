@@ -1,4 +1,4 @@
-package com.example.catulator.ui.theme
+package com.realityexpander.catulator.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

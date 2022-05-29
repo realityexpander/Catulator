@@ -1,4 +1,4 @@
-package com.example.catulator
+package com.realityexpander.catulator
 
 sealed class CatulatorAction {
     data class Number(val number: Int): CatulatorAction()

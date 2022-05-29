@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.catulator'
+    namespace 'com.realityexpander.catulator'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.catulator"
+        applicationId "com.realityexpander.catulator"
         minSdk 27
         targetSdk 32
         versionCode 1

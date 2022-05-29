@@ -1,4 +1,4 @@
-package com.example.catulator
+package com.realityexpander.catulator
 
 sealed class CatulatorOperation(val symbol: String) {
     object Add : CatulatorOperation("+")

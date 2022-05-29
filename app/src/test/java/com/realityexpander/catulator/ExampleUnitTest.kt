@@ -1,4 +1,4 @@
-package com.example.catulator
+package com.realityexpander.catulator
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.catulator
+package com.realityexpander.catulator
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -13,8 +13,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.catulator.ui.theme.LightGray
-import com.example.catulator.ui.theme.Orange
+import com.realityexpander.catulator.ui.theme.LightGray
+import com.realityexpander.catulator.ui.theme.Orange
 
 @Composable
 fun Catulator(

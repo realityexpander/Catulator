@@ -1,11 +1,10 @@
-package com.example.catulator
+package com.realityexpander.catulator
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import kotlin.math.round
-import kotlin.math.truncate
 
 class CatulatorViewModel : ViewModel() {
     var state by mutableStateOf(CatulatorState())

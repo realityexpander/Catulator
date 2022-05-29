@@ -1,4 +1,4 @@
-package com.example.catulator
+package com.realityexpander.catulator
 
 data class CatulatorState(
     val number1: String = "",
