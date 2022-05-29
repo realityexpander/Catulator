@@ -56,10 +56,6 @@ class CatulatorViewModel : ViewModel() {
         }
     }
 
-    private fun containsMinus(number: String): Boolean {
-        return number.contains("-")
-    }
-
     private fun containsDecimal(number: String): Boolean {
         return number.contains(".")
     }
@@ -100,7 +96,7 @@ class CatulatorViewModel : ViewModel() {
         }
 
         if (state.number2.isEmpty() && state.operation == CatulatorOperation.None) {
-            if(state.number1.contains(".")) return
+            if(containsDecimal(state.number1)) return
 
             if (state.number1.isEmpty()) {
                 state = state.copy(number1 = "0.")
@@ -109,7 +105,7 @@ class CatulatorViewModel : ViewModel() {
             }
             number1Val = state.number1.toDouble()
         } else {
-            if(state.number2.contains(".")) return
+            if(containsDecimal(state.number2)) return
 
             if (state.number2.isEmpty()) {
                 state = state.copy(number2 = "0.")
@@ -144,7 +140,7 @@ class CatulatorViewModel : ViewModel() {
 
         // if result is a whole number, remove the decimal
         val resultRounded = result.round(10)
-        val resultString = if (resultRounded.toInt() * 10 == (resultRounded * 10).toInt()) {
+        val resultString = if (resultRounded.toInt() * 1_000_000_000 == (resultRounded * 1_000_000_000).toInt()) {
             resultRounded.toInt().toString()
         } else {
             resultRounded.toString()

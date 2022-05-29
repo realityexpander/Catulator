@@ -49,7 +49,7 @@ fun Catulator(
                     .fillMaxWidth()
                     .padding(bottom = 16.dp),
                 fontWeight = FontWeight.Light,
-                fontSize = 80.sp,
+                fontSize = 60.sp,
                 color = Color.White,
                 maxLines = 2
             )
