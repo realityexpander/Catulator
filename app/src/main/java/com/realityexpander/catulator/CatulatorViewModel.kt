@@ -138,7 +138,7 @@ class CatulatorViewModel : ViewModel() {
         }
 
         // if result is a whole number, remove the decimal
-        val resultRounded = result.round(10)
+        val resultRounded = result.round(15)
         val resultString = if (resultRounded.toInt() * 1_000_000_000 == (resultRounded * 1_000_000_000).toInt()) {
             resultRounded.toInt().toString()
         } else {

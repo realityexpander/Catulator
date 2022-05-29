@@ -49,9 +49,9 @@ fun Catulator(
                     .fillMaxWidth()
                     .padding(bottom = 16.dp),
                 fontWeight = FontWeight.Light,
-                fontSize = 60.sp,
+                fontSize = 50.sp,
                 color = Color.White,
-                maxLines = 2
+                maxLines = 3
             )
             Row( // AC del ÷
                 modifier = Modifier.fillMaxWidth(),
