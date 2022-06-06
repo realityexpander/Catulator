@@ -1,5 +1,6 @@
 package com.realityexpander.catulator
 
+import android.text.TextUtils.replace
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Text
@@ -16,6 +17,10 @@ import androidx.compose.ui.unit.sp
 import com.realityexpander.catulator.ui.theme.LightGray
 import com.realityexpander.catulator.ui.theme.Orange
 
+fun String.toCatZeros(): String {
+    return replace("0", "🐈")
+}
+
 @Composable
 fun Catulator(
     state: CatulatorState,
@@ -26,7 +31,7 @@ fun Catulator(
     Box(
         modifier = modifier
     ) {
-        Text(text = "😸 Catulator \uD83D\uDE40÷ \uD83D\uDE3B× \uD83D\uDE3F- \uD83D\uDE38+",
+        Text(text = "😸 Catulator \uD83D\uDE40÷ \uD83D\uDE3B× \uD83D\uDE3F- \uD83D\uDE38+ \uD83D\uDC08=0",
             style = TextStyle(
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
@@ -41,9 +46,9 @@ fun Catulator(
         ) {
             println(state)
             Text(
-                text = (if (state.number1 == "") "0" else state.number1) +
+                text = (if (state.number1 == "") "🐈" else state.number1.toCatZeros()) +
                         state.operation.symbol +
-                        state.number2,
+                        state.number2.toCatZeros(),
                 textAlign = TextAlign.End,
                 modifier = Modifier
                     .fillMaxWidth()
@@ -211,7 +216,7 @@ fun Catulator(
                 horizontalArrangement = Arrangement.spacedBy(buttonSpacing)
             ) {
                 CatulatorButton(
-                    symbol = "0",
+                    symbol = "🐈",
                     onClick = { onAction(CatulatorAction.Number(0)) },
                     modifier = Modifier
                         .background(LightGray)
