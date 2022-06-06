@@ -1,7 +1,8 @@
 # Catulator
 Cat calculator using Compose
 
-[<img src="https://user-images.githubusercontent.com/5157474/172030190-18362414-523f-4ab7-a5cb-00a2932bb755.png" width="200"/>](https://user-images.githubusercontent.com/5157474/172030190-18362414-523f-4ab7-a5cb-00a2932bb755.png)
+[<img src="https://user-images.githubusercontent.com/5157474/172242584-7a8d6cc1-1c74-47e1-b316-82fa8b03c27d.png" width="200"/>](https://user-images.githubusercontent.com/5157474/172242584-7a8d6cc1-1c74-47e1-b316-82fa8b03c27d.png)
+
 
 - Allows user to calculate basic cat operations er.. i mean math operations such as:
   - Add 😸
@@ -11,6 +12,7 @@ Cat calculator using Compose
   - Change the sign of the cat, er... i mean value
   - Fix cat mistakes, er.. i mean delete a mistaken number
   - Clear cats, er... i mean tell em to shoo, cat, shoo
+- Display is in cat-zero standard format
 
 ## Tech Employed
 - Compose
