@@ -9,6 +9,8 @@ Cat calculator using Compose
   - Multiply 😻
   - Divide 🙀
   - Change the sign of the cat, er... i mean value
+  - Fix cat mistakes, er.. i mean delete a mistaken number
+  - Clear cats, er... i mean tell em to shoo, cat, shoo
 
 ## Tech Employed
 - Compose
