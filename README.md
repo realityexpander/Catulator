@@ -12,7 +12,7 @@ Cat calculator using Compose, MVI Pattern, Standard cat-zero notation
   - Change the attitude of the cat, err... I mean sign
   - Fix cat mistakes, err.. I mean delete a mistaken number
   - Clear cats, er... i mean tell em to shoo, cat, shoo
-- Display is in cat-zero standard format (very scientif-cat)
+- Display is in cat-zero standard format (very scientificat)
 
 ## Tech Employed
 - Compose
