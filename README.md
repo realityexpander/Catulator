@@ -4,15 +4,15 @@ Cat calculator using Compose, MVI Pattern, Cat-zero notation
 [<img src="https://user-images.githubusercontent.com/5157474/172242584-7a8d6cc1-1c74-47e1-b316-82fa8b03c27d.png" width="200"/>](https://user-images.githubusercontent.com/5157474/172242584-7a8d6cc1-1c74-47e1-b316-82fa8b03c27d.png)
 
 
-- Allows user to calculate basic cat operations er.. i mean math operations such as:
-  - Add 😸
-  - Subtract 😿
-  - Multiply 😻
-  - Divide 🙀
-  - Change the sign of the cat, er... i mean value
-  - Fix cat mistakes, er.. i mean delete a mistaken number
+- Allows user to calculate basic cat operations err.. I mean math operations such as:
+  - Add a cat - :) 😸
+  - Subtract a cat - :( 😿
+  - Multiply cats - ❤️ 😻
+  - Divide cats - OHNO 🙀
+  - Change the attitude of the cat, err... I mean sign
+  - Fix cat mistakes, err.. I mean delete a mistaken number
   - Clear cats, er... i mean tell em to shoo, cat, shoo
-- Display is in cat-zero standard format
+- Display is in cat-zero standard format (very scientif-cat)
 
 ## Tech Employed
 - Compose
