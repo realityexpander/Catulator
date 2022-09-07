@@ -1,7 +1,7 @@
 # Catulator
 Cat calculator using Compose, MVI Pattern, Standard cat-zero notation
 
-[<img src="https://user-images.githubusercontent.com/5157474/172242584-7a8d6cc1-1c74-47e1-b316-82fa8b03c27d.png" width="200"/>](https://user-images.githubusercontent.com/5157474/172242584-7a8d6cc1-1c74-47e1-b316-82fa8b03c27d.png)
+[<img src="https://user-images.githubusercontent.com/5157474/172242584-7a8d6cc1-1c74-47e1-b316-82fa8b03c27d.png" width="250"/>](https://user-images.githubusercontent.com/5157474/172242584-7a8d6cc1-1c74-47e1-b316-82fa8b03c27d.png)
 
 
 - Allows user to calculate basic cat operations err.. I mean math operations such as:
